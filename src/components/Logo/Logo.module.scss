@@ -1,0 +1,8 @@
+@import '../../styles/variables';
+
+.container {
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+    background: $darkBlue no-repeat center/1.4rem;
+}

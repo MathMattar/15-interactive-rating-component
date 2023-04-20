@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap');
+@import './variables';
+
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: 'Overpass', sans-serif;
+    font-weight: $medium;
+}
+
+body {
+    background-color: $veryDarkBlue;
+    padding: 15.4rem 2.4rem;
+}

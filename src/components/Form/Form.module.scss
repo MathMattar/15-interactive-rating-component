@@ -1,0 +1,56 @@
+@import '../../styles/variables';
+
+.container {
+    width: 100%;
+
+    .container__options {
+        display: flex;
+        column-gap: 1.7rem;
+        justify-content: center;
+        align-items: center;
+        margin: 2.4rem 0;
+
+        button {
+            width: 4.2rem;
+            height: 4.2rem;
+            border: none;
+            border-radius: 50%;
+            background-color: $darkBlue;
+            font-size: 1.4rem;
+            font-weight: $bold;
+            color: $mediumGrey;
+            cursor: pointer;
+
+            &:hover {
+                background-color: $orange;
+                color: $white;
+            }
+        }
+
+        .active {
+            background-color: $mediumGrey;
+            color: $white;
+        }
+
+    }
+
+    .submit {
+        font-size: 1.4rem;
+        font-weight: $bold;
+        letter-spacing: 0.19rem;
+        text-transform: uppercase;
+        color: $white;
+        display: block;
+        border: none;
+        border-radius: 2.25rem;
+        background-color: $orange;
+        padding: 1.2rem 10.8rem;
+        margin: 0 auto;
+        cursor: pointer;
+
+        &:hover {
+            background-color: $white;
+            color: $orange;
+        }
+    }
+}
