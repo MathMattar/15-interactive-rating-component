@@ -12,7 +12,6 @@ export default function Form() {
   function redirect(e) {
     e.preventDefault();
     window.location.href = "/finish"
-    console.log("clicou");
   }
 
   return (

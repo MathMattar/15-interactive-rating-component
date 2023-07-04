@@ -1,10 +1,10 @@
 import styles from "./Logo.module.scss";
 
-export default function Logo() {
+export default function Logo({ styleName, url }) {
   return (
     <div
-      className={styles.container}
-      style={{ backgroundImage: `url('/images/icon-star.svg')` }}
+      className={styles[styleName]}
+      style={{ backgroundImage: `url(${url})` }}
     ></div>
   );
 }

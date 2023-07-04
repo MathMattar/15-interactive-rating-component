@@ -1,8 +1,14 @@
 @import '../../styles/variables';
 
-.container {
+.main {
     width: 4rem;
     height: 4rem;
     border-radius: 50%;
     background: $darkBlue no-repeat center/1.4rem;
+}
+
+.finish {
+    width: 16.2rem;
+    height: 10.8rem;
+    margin: 1rem auto 3.2rem;
 }
